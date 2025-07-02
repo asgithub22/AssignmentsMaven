@@ -9,8 +9,8 @@ public class readExcelData {
 
 	public static void main(String[] args) {
 
-		List<Map<String, String>> data = ExcelUtilAssignment.readData("Assignment_5.xlsx", "ProductDetails");
-		System.out.println(data.get(1).get("Supplier"));
+		List<Map<String, String>> data = ExcelUtilAssignment.readData("Assignment_5.xlsx", "ProductDetails"); // Pass FileName and SheetName
+		System.out.println(data.get(1).get("Supplier")); // Get the data from Second Row and Supplier column 
 		
 
 	}
