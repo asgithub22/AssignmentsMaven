@@ -10,7 +10,7 @@ public class readExcelData {
 	public static void main(String[] args) {
 
 		List<Map<String, String>> data = ExcelUtilAssignment.readData("Assignment_5.xlsx", "ProductDetails");
-		System.out.println(data);
+		System.out.println(data.get(1).get("Supplier"));
 		
 
 	}
