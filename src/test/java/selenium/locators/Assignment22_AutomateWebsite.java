@@ -74,8 +74,6 @@ public class Assignment22_AutomateWebsite {
 		
 //		15. Close browser window
 		driver.quit();
-
-
 	}
 	public static void selectGender(String option) {
 		WebElement gender = driver.findElement(By.xpath("//label[text()='"+option+"']"));

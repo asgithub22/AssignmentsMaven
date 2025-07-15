@@ -78,7 +78,6 @@ public class Assignment21_AutomateWebsite {
 		 	
 		
 //		10. Verify error message is displayed (The username and password could not be verified.)
-		
 		WebElement errorMessage = driver.findElement(By.xpath("//p[@class='error']"));
 		String actualError = errorMessage.getText() ;
 		String expectedError = "Please enter a username and password.";
