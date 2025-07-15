@@ -35,20 +35,20 @@ public class AssignmentParaBankWebsiteLocators {
 //		6. Locate 'Location' using advance css Selector
 		driver.findElement(By.cssSelector("ul[class='leftmenu'] > li > a[href='http://www.parasoft.com/jsp/pr/contacts.jsp']"));
 		
-//		7. Locate 'Location' using advance css Selector
+//		7. Locate 'Admin' using advance css Selector
 		driver.findElement(By.cssSelector("ul[class='leftmenu'] > li > a[href='admin.htm']"));
 		
 //		8. Locate 'Customer Login' using tagName
-		driver.findElement(By.tagName([text()="Customer Login"));
+		driver.findElement(By.tagName("h2"));
 		
 //		9. Locate 'Username' using tagName
-		driver.findElement(By.b[text()="Username"]);
+		driver.findElement(By.xpath("//b[text()='Username']"));
 		
 //		10. Locate 'Input Box of Username' using tagName
 		driver.findElement(By.name("username"));
 		
 //		11. Locate 'Password' using tagName
-		driver.findElement(By.tagName(text()="Password");
+		driver.findElement(By.xpath("//b[text()='Password']"));
 		
 //		12. Locate 'Input Box of Password' using tagName
 		driver.findElement(By.name("password"));
@@ -56,60 +56,64 @@ public class AssignmentParaBankWebsiteLocators {
 //		13. Locate 'Submit Button' using tagName
 		driver.findElement(By.tagName("submit"));
 		
-//		14. Locate 'Forgot Message' using tagName
-		driver.findElement(By.tagName(a[text()="Forgot login info?"]));
+//		14. Locate 'Forgot Message' using xpath
+		driver.findElement(By.xpath("//a[text()='Forgot login info?']"));
 		
-//		15. Locate 'Logo' using tagName
+//		15. Locate 'Register' using xpath
+		driver.findElement(By.xpath("//a[text()='Register']"));
+		
+//		16. Locate 'Logo' using tagName
 		driver.findElement(By.cssSelector("img[src='images/logo.gif;JSESSIONID_8111=119839D32944CFF0972B78B54EA310D4']"));
 		
-//		16. Locate 'ParaSoft Demo Website' using tagName
-		driver.findElement(By.tagName("h1[text()="ParaSoft Demo Website"]");
+//		17. Locate 'ParaSoft Demo Website' using tagName
+		driver.findElement(By.xpath(""));
 		
-//		17. unable to locate Paragraph text
+//		18. unable to locate First Paragraph text
+		driver.findElement(By.xpath("//div[@id='rightPanel']//p[1]"));
 		
-//		18. Locate 'Parabank key bookstore' using className
-		driver.findElement(By.className("custom_pfx"));
+//		19. unable to locate Second Paragraph text
+		driver.findElement(By.xpath("//div[@id='rightPanel']//p[2]"));
 		
-//		19. Locate 'soatest.pfx' using link text
-		driver.findElement(By.linkText("soatest.pfx");
-		
-//		20. Locate 'Home Icon' using advance css Selectorr
+//		20. unable to locate Third Paragraph text
+		driver.findElement(By.xpath("//div[@id='rightPanel']//p[3]"));		
+				
+//		21. Locate 'Home Icon' using advance css Selectorr
 		driver.findElement(By.cssSelector("ul[class='button'] > li > a[href='index.htm']"));
 		
-//		21. Locate 'About Icon' using advance css Selectorr
+//		22. Locate 'About Icon' using advance css Selectorr
 		driver.findElement(By.cssSelector("ul[class='button'] > li > a[href='about.htm']"));
 		
-//		22. Locate 'Contact Icon' using advance css Selectorr
+//		23. Locate 'Contact Icon' using advance css Selectorr
 		driver.findElement(By.cssSelector("ul[class='button'] > li > a[href='contact.htm']"));
 		
-//		23. Locate 'Footer Home' using advance css Selectorr
+//		24. Locate 'Footer Home' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='index.htm']"));
 		
-//		24. Locate 'Footer About Us' using advance css Selectorr
+//		25. Locate 'Footer About Us' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='about.htm']"));
 		
-//		25. Locate 'Footer Services' using advance css Selectorr
+//		26. Locate 'Footer Services' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='services.htm']"));
 		
-//		26. Locate 'Footer Products' using advance css Selectorr
+//		27. Locate 'Footer Products' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='http://www.parasoft.com/jsp/products.jsp']"));
 		
-//		27. Locate 'Footer Locations' using advance css Selectorr
+//		28. Locate 'Footer Locations' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='http://www.parasoft.com/jsp/pr/contacts.jsp']"));
 		
-//		28. Locate 'Footer Forum' using advance css Selectorr
+//		29. Locate 'Footer Forum' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='http://forums.parasoft.com/']"));
 		
-//		29. Locate 'Footer Site Map' using advance css Selectorr
+//		30. Locate 'Footer Site Map' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='sitemap.htm']"));
 		
-//		30. Locate 'Footer Contact Us' using advance css Selectorr
+//		31. Locate 'Footer Contact Us' using advance css Selectorr
 		driver.findElement(By.cssSelector("div[id='footerPanel'] > ul > li > a[href='contact.htm']"));
 		
-//		31. Locate 'Copyright' using advance css Selectorr
+//		32. Locate 'Copyright' using advance css Selectorr
 		driver.findElement(By.className("[class='copyright']"));	
 		
-//		32. Locate 'Visit' using advance css Selectorr
+//		33. Locate 'Visit' using advance css Selectorr
 		driver.findElement(By.className("[class='visit']"));	
 				
 		
