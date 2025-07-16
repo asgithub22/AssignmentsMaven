@@ -132,8 +132,7 @@ public class AmazonAutomation {
     		WebElement popUpClose = driver.findElement(By.xpath("//button[@class=' a-button-close a-declarative a-button-top-right']"));
     		popUpClose.click();
     		
-    		
-    		
+    	    		
         } catch (Exception e) {
             System.out.println("Something went wrong: " + e.getMessage());
             
